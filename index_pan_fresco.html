@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Fresco Casero Artesanal</title>
+    <link rel="icon" href="img_pan_fresco/borroso.jpg" type="image/jpg">
+    <link rel="stylesheet" href="styles_pan_fresco.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- Primer parte del header -->
+        <div class="container-ban-pan">
+            <div class="container ban-pan">
+                <!-- Atencion al Cliente -->
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Atención al Cliente</span>
+                        <span class="number">9932-0171</span>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <div class="container-logo">
+                    <i class="fa-solid fa-bread-slice"></i>
+                    <h1 class="logo"><a href="index_pan_fresco.html"> Pan Fresco Casero Artesanal </a></h1>
+                    <i class="fa-solid fa-bread-slice"></i>
+                </div>
+                <!-- Usuario -->
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-basket-shopping"></i>
+                    <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segunda parte del header -->
+        <div class="container-navbar">
+            <nav class="navbar">
+                <button class="hamburger" id="hamburger-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="main-menu">
+                    <li><a href="index_pan_fresco.html">Inicio</a></li>
+                    <li><a href="Sobre_nosotros.html">Sobre Nosotros</a>
+                        <ul class="sub-menu">
+                            <li><a href="Historia.html">Historia</a></li>
+                            <li><a href="Mision.html">Mision</a></li>
+                            <li><a href="Vision.html">Vision</a></li>
+                            <li><a href="Nuestro_equipo.html">Nuestro Equipo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Metodos_de_pago.html">Metodos de Pago</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="content-banner">
+            <p>Emprendimiento Familiar</p>
+            <h2>100% Calidad <br />Pan Casero Fresco Artesanal</h2>
+            <a href="Sobre_nosotros.html">Conocenos</a>
+        </div>
+    </section>
+
+    <main class="main-content">
+
+        <!-- Slider de Imagenes -->
+
+        <section class="adversiment">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide" id="slide-1">
+                            <img src="img_pan_fresco/SliderInicio.png" alt="Imagen 1">
+                        </div>
+                        <div class="slide" id="slide-2">
+                            <img src="img_pan_fresco/Slider2.png" alt="Imagen 2">
+                        </div>
+                        <div class="slide" id="slide-3">
+                            <img src="img_pan_fresco/Slider3.png" Imagen 3">
+                        </div>
+                        <div class="slide" id="slide-4">
+                            <img src="img_pan_fresco/Slider1 (1).png" alt="Imagen 4">
+                        </div>
+                    </div>
+                    <button class="prev" onclick="prevSlide()">&#10094;</button>
+                    <button class="next" onclick="nextSlide()">&#10095;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Caracteristicas (features) -->
+
+        <section class="container container-features">
+            <div class="card-feature">
+                <i class="fa-solid fa-wallet"></i>
+                <div class="feature-content">
+                    <span>Precios accesibles</span>
+                    <p>100% relacion calidad y precio</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-gift"></i>
+                <div class="feature-content">
+                    <span>Promociones</span>
+                    <p>Promociones frecuentes</p>
+                </div>
+            </div>
+            <div class="card-feature">
+                <i class="fa-solid fa-bicycle"></i>
+                <div class="feature-content">
+                    <span>Servicio a domicilio sin costo</span>
+                    <p>A todo el sector de Pimienta, Cortes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mejores productos -->
+        <center>
+            <h1 class="heading-1">Especiales</h1>
+            <BR></BR>
+        </center>
+        <section class="container specials">
+
+            <div class="container-products">
+                <!-- Producto 1 -->
+                <div class="card-product" data-nombre="Rol de Canela" data-precio="L. 25"
+                    data-img="img_pan_fresco/cinamon.png">
+                    <div class="container-img">
+                        <img src="img_pan_fresco/cinamon.png" alt="#" />
+                        <span class="discount">PRECIO POR UNIDAD</span>
+                        <div class="button-group">
+                            <span class="btn-ver"><i class="fa-solid fa-trash"></i></i></span>
+                            <span class="btn-fav"><i class="fa-regular fa-heart"></i></span>
+                            <span class="btn-comp"><i class="fa-solid fa-code-compare"></i></span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars" data-nombre="Rol de Canela">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <h3>Roles de Canela</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">L. 25</p>
+                    </div>
+                </div>
+                <!-- Producto 2 -->
+                <!-- Producto 1 -->
+                <div class="card-product" data-nombre="Semita" data-precio="L. 15" data-img="img_pan_fresco/semita.jpg">
+                    <div class="container-img">
+                        <img src="img_pan_fresco/semita.jpg" alt="#" />
+                        <span class="discount">PRECIO POR UNIDAD</span>
+                        <div class="button-group">
+                            <span class="btn-ver"><i class="fa-solid fa-trash"></i></span>
+                            <span class="btn-fav"><i class="fa-regular fa-heart"></i></span>
+                            <span class="btn-comp"><i class="fa-solid fa-code-compare"></i></span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars" data-nombre="Semita">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <h3>Semitas de Arroz</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">L. 15</p>
+                    </div>
+                </div>
+                <!--  -->
+                <!-- Producto 1 -->
+                <div class="card-product" data-nombre="PastelitoP" data-precio="L. 15"
+                    data-img="Imagenes_AVON/Extras/es1.jpg">
+                    <div class="container-img">
+                        <img src="img_pan_fresco/pastelpina.png" alt="#" />
+                        <span class="discount">PRECIO POR UNIDAD</span>
+                        <div class="button-group">
+                            <span class="btn-ver"><i class="fa-regular fa-eye"></i></span>
+                            <span class="btn-fav"><i class="fa-regular fa-heart"></i></span>
+                            <span class="btn-comp"><i class="fa-solid fa-code-compare"></i></span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars" data-nombre="PastelitoP">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <h3>Pastelitos de Piña</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">L. 15</p>
+                    </div>
+                </div>
+                <!--  -->
+                <!-- Producto 1 -->
+                <div class="card-product" data-nombre="TortasL" data-precio="L. 25"
+                    data-img="Imagenes_AVON/Extras/es1.jpg">
+                    <div class="container-img">
+                        <img src="img_pan_fresco/tortasleche.png" alt="#" />
+                        <span class="discount">PRECIO POR UNIDAD</span>
+                        <div class="button-group">
+                            <span class="btn-ver"><i class="fa-regular fa-eye"></i></span>
+                            <span class="btn-fav"><i class="fa-regular fa-heart"></i></span>
+                            <span class="btn-comp"><i class="fa-solid fa-code-compare"></i></span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars" data-nombre="TortasL">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <h3>Tortas de Leche</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">L. 25</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  -->
+        <center>
+            <h1 class="heading-1">Galeria de Fotos</h1>
+
+        </center>
+        <section class="gallery">
+
+            <img src="img_pan_fresco/gale.jpg" alt="Gallery Img1" class="gallery-img-1" /><img
+                src="img_pan_fresco/galee.jpg" alt="Gallery Img2" class="gallery-img-2" /><img
+                src="img_pan_fresco/galep.jpg" alt="Gallery Img3" class="gallery-img-3" /><img
+                src="img_pan_fresco/galeee.jpg" alt="Gallery Img4" class="gallery-img-4" /><img
+                src="img_pan_fresco/galeeee.jpg" alt="Gallery Img5" class="gallery-img-5" />
+        </section>
+        <section class="container blogs">
+            <center>
+                <h1 class="heading-1">Podría Interesarte...</h1>
+            </center>
+
+            <div class="container-blogs">
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img_pan_fresco/horno.jpg" alt="Imagen Blog 1" />
+                        
+                    </div>
+                    <div class="content-blog">
+                        <h3>Nuestra Historia</h3>
+                        
+                        <p>
+                            ¿Cómo empezó esta bella historia?
+                        </p>
+                        <div class="btn-read-more"><a href="#" style="color: #fff;">Leer más</a></div>
+                    </div>
+                </div>
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img_pan_fresco/IMG_20250311_181239 (1) (1)-min (1).jpg" alt="Imagen Blog 2" />
+                        
+                    </div>
+                    <div class="content-blog">
+                        <h3>Productos</h3>
+                        <p>
+                            ¡Enterate de nuestros productos y precios!
+                        </p>
+                        <div class="btn-read-more"><a href="Como_Pagar.html" style="color: #fff;">Leer más</a></div>
+                    </div>
+                </div>
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="img_pan_fresco/papi.jpg" alt="Imagen Blog 3" />
+                    </div>
+                    <div class="content-blog">
+                        <h3>Contacto</h3>
+                        <p>
+                            Mira las opciones para contactarnos
+                        </p>
+                        <div class="btn-read-more"><a href="#" style="color: #fff;">Leer más</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+        <footer class="footer">
+  <div class="container container-footer">
+    <div class="menu-footer solo-contacto">
+      <div class="contact-info">
+        <p class="title-footer">Información del Contacto</p>
+        <ul>
+          <li>Teléfono: 9932-0171</li>
+          <li>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mirzaportillo12@yahoo.com" target="_blank">
+  mirzaportillo12@yahoo.com
+</a></li>
+        </ul>
+        <center>
+        <div class="social-icons">
+          <a class="facebook" href="https://www.facebook.com/profile.php?id=61554185277287" target="_blank" title="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a class="youtube" href="https://youtube.com/@mirzaportillo5751?si=XYNDNqrr6yRGi8i1" target="_blank" title="YouTube">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+          
+          <a class="instagram" href="https://www.instagram.com/portillomirza?igsh=MTNhcWFtZWx2Ym44bQ==" target="_blank" title="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a class="tiktok" href="https://www.tiktok.com/@mirza_portillo?_t=ZM-8xolXZVdXyK&_r=1" target="_blank" title="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+          <a class="whatsapp" href="https://wa.me/99320171" target="_blank" title="Whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+        </center>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Desarrollado por: Alumnos UCENM, Villanueva, <br>Clase: Computacion II &copy; 2025</p>
+      <img src="Imagenes_AVON/Extras/pagos.png" alt="Pagos">
+    </div>
+  </div>
+</footer>
+
+
+    <script src="script_pan_fresco.js"></script>
+    <script src="https://kit.fontawesome.com/9f2c5777eb.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

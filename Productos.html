@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Fresco Casero Artesanal</title>
+    <link rel="icon" href="img_pan_fresco/borroso.jpg" type="image/jpg">
+    <link rel="stylesheet" href="styles_pan_fresco.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+
+        <!-- Primer parte del header -->
+        <div class="container-ban-pan">
+            <div class="container ban-pan">
+                <!-- Atencion al Cliente -->
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Atención al Cliente</span>
+                        <span class="number">9932-0171</span>
+                    </div>
+                </div>
+                <!-- Logo -->
+                <div class="container-logo">
+                    <i class="fa-solid fa-bread-slice"></i>
+                    <h1 class="logo"><a href="index_pan_fresco.html"> Pan Fresco Casero Artesanal </a></h1>
+                    <i class="fa-solid fa-bread-slice"></i>
+                </div>
+                <!-- Usuario -->
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+
+                    <span class="text">Actualmente <br>Navegando en la tienda</span>
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Segunda parte del header -->
+        <div class="container-navbar">
+            <nav class="navbar">
+                <button class="hamburger" id="hamburger-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="main-menu">
+                    <li><a href="index_pan_fresco.html">Inicio</a></li>
+                    <li><a href="Sobre_nosotros.html">Sobre Nosotros</a>
+                        <ul class="sub-menu">
+                            <li><a href="Historia.html">Historia</a></li>
+                            <li><a href="Mision.html">Mision</a></li>
+                            <li><a href="Vision.html">Vision</a></li>
+                            <li><a href="Nuestro_equipo.html">Nuestro Equipo</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Productos.html">Productos</a></li>
+                    <li><a href="Metodos_de_pago.html">Metodos de Pago</a></li>
+                    <li><a href="Contacto.html">Contacto</a></li>
+            </nav>
+        </div>
+    </header>
+    <main class="main-content">
+        <section class="comidita">
+            <h1 class="heading-1">Nuestros Productos</h1>
+            <div id="carrito-contador" class="contador-carrito">🛒 0</div>
+            <!-- Producto 1 -->
+            <div class="container-comidita">
+                <div class="card-comidita" data-nombre="Roles de Canela" data-precio="L. 25"
+                    data-img="img_pan_fresco/cinamon.png">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/Roles.jpg" alt="Rol de Canela" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Roles de Canela</h3>
+                        <div class="stars" data-nombre="Roles de Canela">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 25</p>
+                    </div>
+                </div>
+                <!-- Producto 2 -->
+                <div class="card-comidita" data-nombre="Semitas de Arroz" data-precio="L. 15"
+                    data-img="img_pan_fresco/Productos/Arroz.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/Arroz.jpg" alt="Semitas de Arroz" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Semitas de Arroz</h3>
+                        <div class="stars" data-nombre="Semitas de Arroz">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 15</p>
+                    </div>
+                </div>
+                <!-- Producto 3 -->
+                <div class="card-comidita" data-nombre="Pastelitos de Piña" data-precio="L. 15"
+                    data-img="img_pan_fresco/Productos/Pina.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/Pina.jpg" alt="Pastelitos de Piña" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Pastelitos de Piña</h3>
+                        <div class="stars" data-nombre="Pastelitos de Piña">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 15</p>
+                    </div>
+                </div>
+                <!-- Producto 4 -->
+                <div class="card-comidita" data-nombre="Semitas de Maiz Blanco" data-precio="L. 20"
+                    data-img="img_pan_fresco/Productos/mblanco.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/mblanco.jpg" alt="Semitas de Maiz Blanco" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Semitas de Maiz Blanco</h3>
+                        <div class="stars" data-nombre="Semitas de Maiz Blanco">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 20</p>
+                    </div>
+                </div>
+                <!-- Producto 5 -->
+                <div class="card-comidita" data-nombre="Tortas de Leche" data-precio="L. 25"
+                    data-img="img_pan_fresco/tortasleche.png">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/tortasleche.png" alt="Tortas de Leche" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Tortas de Leche</h3>
+                        <div class="stars" data-nombre="Tortas de Leche">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 25</p>
+                    </div>
+                </div>
+                <!-- Producto 6 -->
+                <div class="card-comidita" data-nombre="Empanadillas" data-precio="L.15"
+                    data-img="img_pan_fresco/Productos/empanadilla.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/empanadilla.jpg" alt="Empanadillas" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Empanadillas</h3>
+                        <div class="stars" data-nombre="Empanadillas">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 15</p>
+                    </div>
+                </div>
+                <!-- Producto 7 -->
+                <div class="card-comidita" data-nombre="Semitas Tipo Concha" data-precio="L. 15"
+                    data-img="img_pan_fresco/Productos/concha.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/concha.jpg" alt="Semitas Tipo Concha" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Semitas Tipo Concha</h3>
+                        <div class="stars" data-nombre="Semitas Tipo Concha">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 15</p>
+                    </div>
+                </div>
+                <!-- Producto 8 -->
+                <div class="card-comidita" data-nombre="Torta de Banano" data-precio="L. 25"
+                    data-img="img_pan_fresco/Productos/banano.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/banano.jpg" alt="Torta de Banano" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Torta de Banano</h3>
+                        <div class="stars" data-nombre="Torta de Banano">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 25</p>
+                    </div>
+                </div>
+                <!-- Producto 9 -->
+                <div class="card-comidita" data-nombre="Pastel Tres Leches" data-precio="L.650"
+                    data-img="img_pan_fresco/Productos/Leches.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/Leches.jpg" alt="Pastel Tres Leches" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Pastel Tres Leches</h3>
+                        <div class="stars" data-nombre="Pastel Tres Leches">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 650</p>
+                    </div>
+                </div>
+                <!-- Producto 10 -->
+                <div class="card-comidita" data-nombre="Pastel Tres Leches de Oreo" data-precio="L.650"
+                    data-img="img_pan_fresco/Productos/Pastel3.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/Pastel3.jpg" alt="Pastel Tres Leches de Oreo" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Pastel Tres Leches de Oreo</h3>
+                        <div class="stars" data-nombre="Pastel Tres Leches de Oreo">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 500</p>
+                    </div>
+                </div>
+                <!-- Producto 11 -->
+                <div class="card-comidita" data-nombre="Torrejas Tres Leches" data-precio="L. 60"
+                    data-img="Imagenes_AVON/pan.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/torre.jpg" alt="Torrejas Tres Leches" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Torrejas Tres Leches</h3>
+                        <div class="stars" data-nombre="Torrejas Tres Leches">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 60</p>
+                    </div>
+                </div>
+                <!-- Producto 12 -->
+                <div class="card-comidita" data-nombre="Bollos de Coco" data-precio="L. 10"
+                    data-img="img_pan_fresco/Productos/Bcoco.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/Bcoco.jpg" alt="Bollos de Coco" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Bollos de Coco</h3>
+                        <div class="stars" data-nombre="Bollos de Coco">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 10</p>
+                    </div>
+                </div>
+                <!-- Producto 13 -->
+                <div class="card-comidita" data-nombre="Pastelitos de Coco" data-precio="L. 15"
+                    data-img="img_pan_fresco/Productos/PCoco.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/PCoco.jpg" alt="Pastelitos de Coco" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Pastelitos de Coco</h3>
+                        <div class="stars" data-nombre="Pastelitos de Coco">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 15</p>
+                    </div>
+                </div>
+                <!-- Producto 14 -->
+                <div class="card-comidita" data-nombre="Semitas de Orilla" data-precio="L. 15"
+                    data-img="img_pan_fresco/Productos/orilla.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/orilla.jpg" alt="Semitas de Orilla" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Semitas de Orilla</h3>
+                        <div class="stars" data-nombre="Semitas de Orilla">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 15</p>
+                    </div>
+                </div>
+                <!-- Producto 15 -->
+                <div class="card-comidita" data-nombre="Semitas Largas" data-precio="L. 15"
+                    data-img="img_pan_fresco/Productos/larga.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/larga.jpg" alt="Semitas Largas" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Semitas Largas</h3>
+                        <div class="stars" data-nombre="Semitas Largas">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 15</p>
+                    </div>
+                </div>
+                <!-- Producto 16 -->
+                 <div class="card-comidita" data-nombre="Pan Frances" data-precio="L. 10 "
+                    data-img="img_pan_fresco/Productos/frances.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/frances.jpg" alt="Pan Frances" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Pan Frances</h3>
+                        <div class="stars" data-nombre="Pan Frances">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 10</p>
+                    </div>
+                </div>
+                <!-- Producto 17 -->
+                 <div class="card-comidita" data-nombre="Quesadillas de Arroz" data-precio="L. 30"
+                    data-img="img_pan_fresco/Productos/Quesa.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/Quesa.jpg" alt="Quesadillas de Arroz" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Quesadillas de Arroz</h3>
+                        <div class="stars" data-nombre="Quesadillas de Arroz">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 35</p>
+                    </div>
+                </div>
+                <!-- Producto 18 -->
+                 <div class="card-comidita" data-nombre="Tortas Marmoleadas" data-precio="L. 25"
+                    data-img="img_pan_fresco/Productos/Marmole.jpg">
+                    <div class="mensaje-calificacion"></div>
+                    <div class="comidita-img">
+                        <img src="img_pan_fresco/Productos/Marmole.jpg" alt="Tortas Marmoleadas" />
+                    </div>
+                    <div class="button-group-row">
+                        <span class="info" title="Información"><i class="fa-solid fa-circle-info"></i></span>
+                        <span class="ametraka" title="Favorito"><i class="fa-regular fa-heart"></i></span>
+                        <span class="cineee" title="Agregar al carrito"><i
+                                class="fa-solid fa-basket-shopping"></i></span>
+                        <span class="barcobasurero" title="Eliminar"><i class="fa-solid fa-trash"></i></span>
+                    </div>
+                    <div class="content-comidita">
+                        <h3>Tortas Marmoleadas</h3>
+                        <div class="stars" data-nombre="Tortas Marmoleadas">
+                            <i class="fa-solid fa-star" data-valor="1"></i>
+                            <i class="fa-solid fa-star" data-valor="2"></i>
+                            <i class="fa-solid fa-star" data-valor="3"></i>
+                            <i class="fa-solid fa-star" data-valor="4"></i>
+                            <i class="fa-solid fa-star" data-valor="5"></i>
+                        </div>
+                        <p class="descripcion-producto" style="display: none;">
+                            Pan recién horneado con aroma dulce y cobertura de azúcar glaseada.
+                        </p>
+                        <p class="mensaje-favorito"
+                            style="display: none; color: #d63384; font-weight: 600; font-size: 0.9rem;">💖 En tus
+                            favoritos</p>
+                        <p class="price">L. 35</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+         
+        </section>
+
+
+    </main>
+    <footer class="footer">
+        <div class="container container-footer">
+            <div class="menu-footer solo-contacto">
+                <div class="contact-info">
+                    <p class="title-footer">Información del Contacto</p>
+                    <ul>
+                        <li>Teléfono: 9932-0171</li>
+                        <li>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mirzaportillo12@yahoo.com"
+                                target="_blank">
+                                mirzaportillo12@yahoo.com
+                            </a></li>
+                    </ul>
+                    <center>
+                        <div class="social-icons">
+                            <a class="facebook" href="https://www.facebook.com/profile.php?id=61554185277287"
+                                target="_blank" title="Facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a class="youtube" href="https://youtube.com/@mirzaportillo5751?si=XYNDNqrr6yRGi8i1"
+                                target="_blank" title="YouTube">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+
+                            <a class="instagram"
+                                href="https://www.instagram.com/portillomirza?igsh=MTNhcWFtZWx2Ym44bQ==" target="_blank"
+                                title="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a class="tiktok" href="https://www.tiktok.com/@mirza_portillo?_t=ZM-8xolXZVdXyK&_r=1"
+                                target="_blank" title="TikTok">
+                                <i class="fa-brands fa-tiktok"></i>
+                            </a>
+                            <a class="whatsapp" href="https://wa.me/99320171" target="_blank" title="Whatsapp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Desarrollado por: Alumnos UCENM, Villanueva, <br>Clase: Computacion II &copy; 2025</p>
+                <img src="Imagenes_AVON/Extras/pagos.png" alt="Pagos">
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script_pan_fresco.js"></script>
+    <script src="https://kit.fontawesome.com/9f2c5777eb.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+</body>
+<script src="script_pan_fresco.js"></script>
